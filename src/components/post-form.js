@@ -5,7 +5,7 @@ import { createPost } from '../actions/post-actions'
 
 class PostForm extends Component {
   static propTypes = {
-    createPost: PropTypes.func.isRequired
+    createPost: PropTypes.func.isRequired,
   }
   state = {
     title: '',
